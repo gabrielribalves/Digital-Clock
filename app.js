@@ -19,5 +19,5 @@ function clock(){
   document.getElementById('minute').innerHTML = ":" + minutes;
   document.getElementById('second').innerHTML = ":" + seconds;
 }
-
+ //Comentário
 setInterval(clock, 1000);
